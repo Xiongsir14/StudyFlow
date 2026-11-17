@@ -1,0 +1,102 @@
+{
+  "courses": [
+    {
+      "id": "af28b3ba",
+      "name": "数据结构",
+      "instructor": "实验",
+      "credits": 3,
+      "color": "#4A90D9"
+    },
+    {
+      "id": "fb6ed975",
+      "name": "计算机网络",
+      "instructor": "李老师",
+      "credits": 3,
+      "color": "#4A90D9"
+    },
+    {
+      "id": "cdfa0bd1",
+      "name": "操作系统",
+      "instructor": "王老师",
+      "credits": 3,
+      "color": "#4A90D9"
+    },
+    {
+      "id": "7fd7a91b",
+      "name": "计算机组成原理",
+      "instructor": "吴老师",
+      "credits": 3,
+      "color": "#4A90D9"
+    },
+    {
+      "id": "36cf1a3d",
+      "name": "心理健康",
+      "instructor": "张老师",
+      "credits": 2,
+      "color": "#4A90D9"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "dcfb2501",
+      "title": "作业",
+      "course_id": "af28b3ba",
+      "description": "明天交",
+      "deadline": "2026-11-18T23:59:00",
+      "estimated_minutes": 60,
+      "priority": 3,
+      "completed": true,
+      "created_at": "2026-11-17T21:46:33.374364",
+      "completed_at": "2026-11-17T21:49:04.515295",
+      "prerequisites": [],
+      "tags": []
+    },
+    {
+      "id": "cc593a77",
+      "title": "上课",
+      "course_id": "fb6ed975",
+      "description": "",
+      "deadline": "2026-11-18T23:59:00",
+      "estimated_minutes": 60,
+      "priority": 2,
+      "completed": true,
+      "created_at": "2026-11-17T21:47:09.855200",
+      "completed_at": "2026-11-17T21:49:01.496288",
+      "prerequisites": [],
+      "tags": []
+    },
+    {
+      "id": "67222ab2",
+      "title": "考试",
+      "course_id": "7fd7a91b",
+      "description": "",
+      "deadline": "2026-11-18T23:59:00",
+      "estimated_minutes": 60,
+      "priority": 1,
+      "completed": true,
+      "created_at": "2026-11-17T21:47:25.832565",
+      "completed_at": "2026-11-17T21:49:20.117322",
+      "prerequisites": [
+        "dcfb2501",
+        "cc593a77"
+      ],
+      "tags": []
+    },
+    {
+      "id": "6abdc4ba",
+      "title": "考试",
+      "course_id": "af28b3ba",
+      "description": "",
+      "deadline": "2026-11-18T23:59:00",
+      "estimated_minutes": 60,
+      "priority": 1,
+      "completed": false,
+      "created_at": "2026-11-17T21:47:54.357265",
+      "completed_at": null,
+      "prerequisites": [
+        "67222ab2"
+      ],
+      "tags": []
+    }
+  ]
+}
